@@ -11,6 +11,6 @@ dependencies = [
     "twine>=6.2.0",
 ]
 [project.scripts]
-mcp_calculator_kel="mcp_calculator_kel:main"
+mcp-calculator_102="mcp_calculator_kel:main"
 [tool.uv.extra-build-dependencies]
 mcp-calculator-102 = ["setuptools"]
