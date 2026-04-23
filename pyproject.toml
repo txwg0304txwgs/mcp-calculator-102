@@ -1,0 +1,16 @@
+[project]
+name = "mcp-calculator_102"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "build>=1.4.3",
+    "fastmcp>=3.2.4",
+    "mcp[cli]>=1.27.0",
+    "twine>=6.2.0",
+]
+[project.scripts]
+mcp_calculator_kel="mcp_calculator_kel:main"
+[tool.uv.extra-build-dependencies]
+mcp-calculator-102 = ["setuptools"]
