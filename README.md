@@ -25,7 +25,7 @@ npx @modelcontextprotocol/inspector uvx mcp_calculator_kel
     "mcp_calculator_kel": {
         "command": "uvx",
         "args": [
-          "mcp-calculator-kel@latest"
+          "mcp-calculator_102@latest"
         ]
       }
   }
